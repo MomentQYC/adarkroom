@@ -23,6 +23,7 @@ Events.Marketing = [{
             $SM.set('marketing.penrose', true);
           },
           //link: 'https://penrose.doublespeakgames.com/?utm_source=adarkroom&utm_medium=crosspromote&utm_campaign=event'
+          link: 'https://github.yateam.cc/jingbao'
         },
         'ignore': {
           text: _('ignore it'),
