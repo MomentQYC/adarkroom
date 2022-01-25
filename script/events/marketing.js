@@ -11,18 +11,18 @@ Events.Marketing = [{
   scenes: {
     'start': {
       text: [
-        _('a strange thrumming, pounding and crashing. visions of people and places, of a huge machine and twisting curves.'),
-        _('inviting. it would be so easy to give in, completely.')
+        _('出现了非常奇怪的撞击声。'),
+        _('有一种非同寻常的吸引力。')
       ],
-      notification: _('a strange thrumming, pounding and crashing. and then gone.'),
+      notification: _('出现了一种奇怪的撞击声。然后就消失了'),
       blink: true,
       buttons: {
         'give in': {
-          text: _('give in'),
+          text: _('想查看但被鲸呆人拉住'),
           onClick: () => {
             $SM.set('marketing.penrose', true);
           },
-          link: 'https://penrose.doublespeakgames.com/?utm_source=adarkroom&utm_medium=crosspromote&utm_campaign=event'
+          //link: 'https://penrose.doublespeakgames.com/?utm_source=adarkroom&utm_medium=crosspromote&utm_campaign=event'
         },
         'ignore': {
           text: _('ignore it'),
