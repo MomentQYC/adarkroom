@@ -130,16 +130,16 @@
 				var optionsList = $('<ul>')
 					.appendTo(selectOptions);
 				$('<li>')
-					.text("language.")
-					.appendTo(optionsList);
+					.text("目前仅限中文~")
+					//.appendTo(optionsList);
 
-				$.each(langs, function(name,display){
+				/*$.each(langs, function(name,display){
 					$('<li>')
 						.text(display)
 						.attr('data-language', name)
 						.on("click", function() { Engine.switchLanguage(this); })
 						.appendTo(optionsList);
-				});
+				});*/
 			}
 
 			$('<span>')
@@ -196,8 +196,8 @@
 
 			$('<span>')
 				.addClass('menuBtn')
-				.text(_('github.'))
-				.click(function() { window.open('https://github.com/doublespeakgames/adarkroom'); })
+				.text(_('魔改作者：小七'))
+				//.click(function() { window.open('https://github.com/doublespeakgames/adarkroom'); })
 				.appendTo(menu);
 
 			// Register keypress handlers
@@ -436,7 +436,7 @@
 
 		getApp: function() {
 			Events.startEvent({
-				title: _('Get the App'),
+				title: _('APP视情况开发~'),
 				scenes: {
 					start: {
 						text: [_('bring the room with you.')],
@@ -445,14 +445,14 @@
 								text: _('ios'),
 								nextScene: 'end',
 								onChoose: function () {
-									window.open('https://itunes.apple.com/app/apple-store/id736683061?pt=2073437&ct=adrproper&mt=8');
+									//window.open('https://itunes.apple.com/app/apple-store/id736683061?pt=2073437&ct=adrproper&mt=8');
 								}
 							},
 							'android': {
 								text: _('android'),
 								nextScene: 'end',
 								onChoose: function() {
-									window.open('https://play.google.com/store/apps/details?id=com.yourcompany.adarkroom');
+									//window.open('https://play.google.com/store/apps/details?id=com.yourcompany.adarkroom');
 								}
 							},
 							'close': {
