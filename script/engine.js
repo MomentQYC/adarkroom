@@ -865,21 +865,21 @@
     // Tell new users that there's sound now!
     $SM.set('playStats.audioAlertShown', true);
     Events.startEvent({
-      title: _('Sound Available!'),
+      title: _('声音可用！'),
       scenes: {
         start: {
           text: [
-            _('ears flooded with new sensations.'),
-            _('perhaps silence is safer?')
+            _('耳朵里充满了新的感觉。'),
+            _('也许沉默更安全？')
           ],
           buttons: {
             'yes': {
-              text: _('enable audio'),
+              text: _('允许声音(可在后面设置)'),
               nextScene: 'end',
               onChoose: () => Engine.toggleVolume(true)
             },
             'no': {
-              text: _('disable audio'),
+              text: _('禁放(可在后面设置)'),
               nextScene: 'end',
               onChoose: () => Engine.toggleVolume(false)
             }
