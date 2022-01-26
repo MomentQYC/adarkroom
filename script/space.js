@@ -471,7 +471,7 @@ var Space = {
 										.appendTo('.centerCont');
 								$('<span>')
 										.addClass('endGame')
-										.text(_('expanded story. alternate ending. behind the scenes commentary. get the app.'))
+										.text(_('expanded story. alternate ending. behind the scenes commentary.'))
 										.appendTo('.centerCont')
 										.animate({opacity:1}, 1500);
 								$('<br />')
@@ -480,7 +480,7 @@ var Space = {
 										.appendTo('.centerCont');
 								$('<span>')
 									.addClass('endGame endGameOption')
-									//.text(_('iOS.'))
+									.text(_('再之后就都知晓了...'))
 									//.click(function() { window.open('https://itunes.apple.com/app/apple-store/id736683061?pt=2073437&ct=gameover&mt=8'); })
 									.appendTo('.centerCont')
 									.animate({opacity:1},1500);
@@ -488,7 +488,7 @@ var Space = {
 										.appendTo('.centerCont');
 								$('<span>')
 										.addClass('endGame endGameOption')
-										//.text(_('android.'))
+										.text(_('是时候反击了！(未完待续)'))
 										//.click(function() { window.open('https://play.google.com/store/apps/details?id=com.yourcompany.adarkroom'); })
 										.appendTo('.centerCont')
 										.animate({opacity:1},1500);
