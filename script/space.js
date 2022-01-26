@@ -480,16 +480,16 @@ var Space = {
 										.appendTo('.centerCont');
 								$('<span>')
 									.addClass('endGame endGameOption')
-									.text(_('iOS.'))
-									.click(function() { window.open('https://itunes.apple.com/app/apple-store/id736683061?pt=2073437&ct=gameover&mt=8'); })
+									//.text(_('iOS.'))
+									//.click(function() { window.open('https://itunes.apple.com/app/apple-store/id736683061?pt=2073437&ct=gameover&mt=8'); })
 									.appendTo('.centerCont')
 									.animate({opacity:1},1500);
 								$('<br />')
 										.appendTo('.centerCont');
 								$('<span>')
 										.addClass('endGame endGameOption')
-										.text(_('android.'))
-										.click(function() { window.open('https://play.google.com/store/apps/details?id=com.yourcompany.adarkroom'); })
+										//.text(_('android.'))
+										//.click(function() { window.open('https://play.google.com/store/apps/details?id=com.yourcompany.adarkroom'); })
 										.appendTo('.centerCont')
 										.animate({opacity:1},1500);
 								Engine.options = {};
